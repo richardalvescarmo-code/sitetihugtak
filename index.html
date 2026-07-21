@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portal Interno de TI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="login-body">
+
+    <!-- Logo -->
+    <div class="logo-topo">
+        <img src="logo/logohgtk.webp" alt="Logo Hugtak">
+    </div>
+
+    <!-- Card Login -->
+    <div class="login-container">
+
+        <h1>Portal Interno de TI</h1>
+
+        <p class="subtitulo">
+            Acesso restrito à equipe de Tecnologia da Informação
+        </p>
+
+        <input
+            type="text"
+            id="usuario"
+            placeholder="Usuário">
+
+        <input
+            type="password"
+            id="senha"
+            placeholder="Senha">
+
+        <button onclick="login()">
+            Entrar
+        </button>
+
+        <p id="mensagem"></p>
+
+    </div>
+
+    <footer class="login-footer">
+
+        Portal Interno de TI • Versão 1.0
+
+    </footer>
+
+    <script src="JS/login.js"></script>
+
+</body>
+
+</html>
